@@ -15,6 +15,10 @@ public class PrimeTester {
      */
     public static boolean isPrime(long n)
     {
+
+        if(n==1 || n==0)
+            return false;
+
         if(n==2)
             return true;
 
