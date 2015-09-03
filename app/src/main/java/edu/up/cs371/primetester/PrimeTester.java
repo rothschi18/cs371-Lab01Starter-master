@@ -19,16 +19,16 @@ public class PrimeTester {
             return true;
 
         if(n%2==0)
-            return true;
+            return false;
 
         for(int i = 3; i*i<n; i++)
         {
             if(n%i==0)
-                return true;
+                return false;
 
         }
 
 
-            return false;
+            return true;
     }
 }
